@@ -1,3 +1,4 @@
+package com.example.foodapp.model;
 
 import java.util.*;
 
@@ -15,13 +16,7 @@ public class ClientLogin{
         protected String Username;
         protected String Password;
         
-    protected Boolean Connected(){
-            AccesDataBase();
-              //Commentaire 
-              add();
-//test
-//test2
-    }           
+
 }
 
 
