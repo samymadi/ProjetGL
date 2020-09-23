@@ -17,7 +17,8 @@ public class ClientLogin{
         
     protected Boolean Connected(){
             AccesDataBase();
-              
+              //Commentaire 
+              add();
     }           
 }
 
