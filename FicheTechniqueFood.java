@@ -13,7 +13,7 @@ public class FicheTechniqueFood {
     private FoodType FoodType;
     private FoodCategory Category;
     private String Description;
-    private Avis Avis;
+    private Note Note;
 
 
     //Getters
@@ -22,7 +22,7 @@ public class FicheTechniqueFood {
     public Conditionnement getConditionnement  () {return Conditionnement;}
     public FoodCategory    getCategory         () {return Category;}
     public String          getDescription      () {return Description;}
-    public Avis            getAvis             () {return Avis;}
+    public Note            getNote             () {return Note;}
     
     
 
@@ -34,7 +34,7 @@ public class FicheTechniqueFood {
     public void setConditionnement(Conditionnement conditionnement) {Conditionnement = conditionnement; }
     public void setCategory       (FoodCategory category)           {Category = category;}
     public void setDescription    (String description)              {Description = description;}
-    public void setAvis           (Avis avis)                       {Avis = avis;}
+    public void setNote           (Note Note)                       {this.Note = Note;}
 
     
 }

@@ -46,11 +46,11 @@ public class Order{
 
     //Methodes
     public boolean placeOrder(){
-
+        return false;
     }
 
     public boolean CancelOrder(){
-
+        return false;
     }
 
 }

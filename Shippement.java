@@ -11,7 +11,7 @@ public class Shippement {
     private Address Ship_Address;
     private boolean Shipped;
     private Date    Shipped_Date;
-    private Date    Ship_Date=Date();
+    private Date    Ship_Date;
     private ShipTrakingPosition  ShipTracking=ShipTrakingPosition.Au_Restaurant;
 
     //Getters 
@@ -36,10 +36,10 @@ public class Shippement {
       //Methodes
 
       public double GetShippingPrice(){
-
+            return 0;
       }
 
       public String ShippTracking(){
-
+            return null;
       }   
 }

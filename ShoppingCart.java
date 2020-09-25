@@ -11,16 +11,16 @@ public class ShoppingCart{
 
     //Attributes 
 
-     List<SelectedFoods> Liste_SelectedFood;
+     List<SelectedFood> Liste_SelectedFood;
 
 
     //Methodes 
 
-    public boolean AddFood(SelectedFoods Food){
+    public boolean AddFood(SelectedFood Food){
        return  true;// Liste_SelectedFood.add(Food);
     }
 
-    public boolean RemoveFood(SelectedFoods Food){
+    public boolean RemoveFood(SelectedFood Food){
         return  true;//Liste_SelectedFood.remove(Food);
     }
 
