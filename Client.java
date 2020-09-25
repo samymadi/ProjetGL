@@ -44,12 +44,14 @@ public class Client{
     public Boolean AddCard(CreditCard Card){  //Ajouter une Carte 
           return  List_CCs.add(Card);
     }
+
     public Boolean AddAdress(Address _Address){  //Ajouter une Adresse 
         return BillingAdress.add(_Address);
     }
     public boolean AddOrder(Order _Order){  //Ajouter un Article
             return List_Orders.add(_Order);
     }
+
 
 }
 
