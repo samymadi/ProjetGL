@@ -11,7 +11,7 @@ public class ShoppingCart{
 
     //Attributes 
 
-    public List<SelectedFoods> Liste_SelectedFood;
+     List<SelectedFoods> Liste_SelectedFood;
 
 
     //Methodes 
@@ -25,15 +25,9 @@ public class ShoppingCart{
     }
 
     public double GetTotalPrice(){
-            return double
+            return 0;
     }
 
 
 }
 
-
-
- class SelectedFoods{
-
-
-}
