@@ -1,14 +1,14 @@
 
-package checkout;
+package com.example.foodapp.model.checkout;
 
-import  java.util.*;
-import  com.example.foodapp.model.Acount.*;
-import  com.example.foodapp.model.Menu.*;
-import  com.example.foodapp.model.Panier.*;
-import  com.example.foodapp.model.Controllers.*;
-import  com.example.foodapp.model.checkout.*;
+import java.util.*;
+import com.example.foodapp.model.Acount.*;
+import com.example.foodapp.model.Menu.*;
+import com.example.foodapp.model.Panier.*;
+import com.example.foodapp.model.Controllers.*;
+import com.example.foodapp.model.checkout.*;
 
-import Acount.Address;
+
 public class Shippement {
  
     public Shippement(Address Ad, float ShippingPrice){
@@ -51,3 +51,4 @@ public class Shippement {
 
        
 }
+

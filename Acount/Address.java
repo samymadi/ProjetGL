@@ -1,12 +1,12 @@
 
-package Acount;
+package  com.example.foodapp.model.Acount;
 
-import  java.util.*;
-import  com.example.foodapp.model.Acount.*;
-import  com.example.foodapp.model.Menu.*;
-import  com.example.foodapp.model.Panier.*;
-import  com.example.foodapp.model.Controllers.*;
-import  com.example.foodapp.model.checkout.*;
+import java.util.*;
+import com.example.foodapp.model.Acount.*;
+import com.example.foodapp.model.Menu.*;
+import com.example.foodapp.model.Panier.*;
+import com.example.foodapp.model.Controllers.*;
+import com.example.foodapp.model.checkout.*;
 
 public class Address{
     //Constrcutor
@@ -29,14 +29,14 @@ private String City;
 private String State;
 
 //Getters
-l
-public Long   getAddressId() {return AddressId;}
+
+public long   getAddressId() {return AddressId;}
 public String getStreet   () {return Street;}
 public String getCity     () {return City;}
 public String getState    () {return State;}
 
 //Setters
-public void setAddressId(Long addressId) {AddressId = addressId;}
+public void setAddressId(long addressId) {AddressId = addressId;}
 public void setStreet   (String street)  {Street = street;}
 public void setCity     (String city)    {City = city;}
 public void setState    (String state)   {State = state;}

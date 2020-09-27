@@ -1,12 +1,12 @@
  
-package Menu;
+package com.example.foodapp.model.Menu;
 
-import  java.util.*;
-import  com.example.foodapp.model.Acount.*;
-import  com.example.foodapp.model.Menu.*;
-import  com.example.foodapp.model.Panier.*;
-import  com.example.foodapp.model.Controllers.*;
-import  com.example.foodapp.model.checkout.*;
+import java.util.*;
+import com.example.foodapp.model.Acount.*;
+import com.example.foodapp.model.Menu.*;
+import com.example.foodapp.model.Panier.*;
+import com.example.foodapp.model.Controllers.*;
+import com.example.foodapp.model.checkout.*;
 
 public class Food {
 
@@ -15,13 +15,13 @@ public class Food {
     //Constructor
     public Food(){
         List_Food = new ArrayList<Food>(); 
-        List_Food.add(new Food("soup2", 30, 3,new FicheTechniqueFood(Conditionnement.Chaud, FoodType.Assiette, FoodCategory.Kabyle, Note.Bon, new String[]{"tomate"},"Repas chaud" )));
-        List_Food.add(new Food("pizza1",25, 3,new FicheTechniqueFood(Conditionnement.Chaud, FoodType.Assiette, FoodCategory.Kabyle, Note.Bon, new String[]{"tomate"},"Repas chaud" )));
-        List_Food.add(new Food("pizza2",40, 2,new FicheTechniqueFood(Conditionnement.Chaud, FoodType.Assiette, FoodCategory.Kabyle, Note.Bon, new String[]{"tomate"},"Repas chaud" )));
-        List_Food.add(new Food("pizza3",20, 4,new FicheTechniqueFood(Conditionnement.Chaud, FoodType.Assiette, FoodCategory.Kabyle, Note.Bon, new String[]{"tomate"},"Repas chaud" )));
-        List_Food.add(new Food("burger",15, 2,new FicheTechniqueFood(Conditionnement.Chaud, FoodType.Assiette, FoodCategory.Kabyle, Note.Bon, new String[]{"tomate"},"Repas chaud" )));
-        List_Food.add(new Food("soup",  30, 2,new FicheTechniqueFood(Conditionnement.Chaud, FoodType.Assiette, FoodCategory.Kabyle, Note.Bon, new String[]{"tomate"},"Repas chaud" )));
-        List_Food.add(new Food("soup2", 30, 2,new FicheTechniqueFood(Conditionnement.Chaud, FoodType.Assiette, FoodCategory.Kabyle, Note.Bon, new String[]{"tomate"},"Repas chaud" )));
+        List_Food.add(new Food("soup2", 30, 3,new FicheTechniqueFood(Conditionnement.Chaud, FoodType.Assiette, FoodCategory.Kabyle, (float)5.0, new String[]{"tomate"},"Repas chaud" )));
+        List_Food.add(new Food("pizza1",25, 3,new FicheTechniqueFood(Conditionnement.Chaud, FoodType.Assiette, FoodCategory.Kabyle, (float)5.0, new String[]{"tomate"},"Repas chaud" )));
+        List_Food.add(new Food("pizza2",40, 2,new FicheTechniqueFood(Conditionnement.Chaud, FoodType.Assiette, FoodCategory.Kabyle, (float)5.0, new String[]{"tomate"},"Repas chaud" )));
+        List_Food.add(new Food("pizza3",20, 4,new FicheTechniqueFood(Conditionnement.Chaud, FoodType.Assiette, FoodCategory.Kabyle, (float)5.0, new String[]{"tomate"},"Repas chaud" )));
+        List_Food.add(new Food("burger",15, 2,new FicheTechniqueFood(Conditionnement.Chaud, FoodType.Assiette, FoodCategory.Kabyle, (float)5.0, new String[]{"tomate"},"Repas chaud" )));
+        List_Food.add(new Food("soup",  30, 2,new FicheTechniqueFood(Conditionnement.Chaud, FoodType.Assiette, FoodCategory.Kabyle, (float)5.0, new String[]{"tomate"},"Repas chaud" )));
+        List_Food.add(new Food("soup2", 30, 2,new FicheTechniqueFood(Conditionnement.Chaud, FoodType.Assiette, FoodCategory.Kabyle, (float)5.0, new String[]{"tomate"},"Repas chaud" )));
         LastId=7;   
     }
     public Food(String _FoodName,float _Uniteprice,int _Quantity_In_Stock, FicheTechniqueFood _FicheTechnique){
