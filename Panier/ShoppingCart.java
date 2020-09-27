@@ -9,11 +9,12 @@ public class ShoppingCart{
     public static ShoppingCart Cart ;
     public ShoppingCart(){
             Liste_SelectedFood = new ArrayList<SelectedFood>();
+            Cart=this;
     }
 
     //Attributes 
 
-     public List<SelectedFood> Liste_SelectedFood;
+     public List<SelectedFood> Liste_SelectedFood; 
 
 
     //Methodes 

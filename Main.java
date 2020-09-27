@@ -8,14 +8,16 @@ import Menu.*;
 
 
 
-class Main{
+public class Main{
     
     public static void main( String[]  args){
-        Food.LastId=0;
-        Address.LastAddressId=0;
-        Food.List_Food= new ArrayList<Food>();
-        MenuController.AddFood();
-        ShoppingCart.Cart = new ShoppingCart();
+        
+        //MenuController.AddFood();
+        //ShoppingCart.Cart = new ShoppingCart();
+       System.out.println( AcountController.CorrectFormatAndUpdateInformation_Address("  ", " ", "  "));
+
+
+    
         
 
         

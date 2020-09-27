@@ -1,14 +1,18 @@
 
 package checkout;
 import java.util.*;
+
+import Panier.SelectedFood;
+
 import java.time.*;
 
 
 public class Order{
     //Constructor 
-    public Order(float TotalPirice, Date OrderDate){
+    public Order(float TotalPirice, Date OrderDate, List<SelectedFood> Liste_Food){
        OrderId=LastIdOrder;
        LastIdOrder++;
+       this.Liste_Food =  Liste_Food;
     }
 
         //Attributes

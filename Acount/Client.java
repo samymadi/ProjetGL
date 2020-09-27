@@ -1,22 +1,25 @@
 
-package Acount; 
+package Acount;
+import  checkout.*;
 
 
-
- 
+import java.util.ArrayList;
 
 //------------------------------------------------------------------------------------------------------------
 public class Client{
-
+        public static Client client; 
     //Constructor
-
-    public Client(String Name,String Email,Long Phone,List<Address> BillingAdress,List<CreditCard> List_CCs){
+   
+    public Client(String Name,String Email,Long Phone){
         this.Name=Name;
         this.Email=Email;
         this.Phone=Phone;
-        this.List_CCs=List_CCs;
-        this.BillingAdress=BillingAdress;
+        client=this;    
+        List_CCs= new ArrayList<CreditCard>();
+        BillingAdress= new ArrayList<Address>();
+        List_Orders = new ArrayList<Order>();
     }
+        
     //Attributes
 
     private String Name;

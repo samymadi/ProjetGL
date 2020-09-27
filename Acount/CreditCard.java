@@ -1,17 +1,19 @@
 
 package Acount;
 
-class CreditCard{
+public class CreditCard{
     //Constructor 
 
-    public CreditCard(Long cardId ,String CardName, String CardNum,Date ExpDate){
-            this.CardId=cardId;
+    public CreditCard(String CardName, String CardNum,Date ExpDate){
+            this.CardId=LastCardId; LastCardId++;
             this.CardName=CardName;
             this.CardNum=CardNum;
             this.ExpDate=ExpDate;
     }
 
-           //Attributes    
+           //Attributes   
+           public static Long LastCardId;
+           
            private Long   CardId;
            private String CardName;
            private String CardNum;
