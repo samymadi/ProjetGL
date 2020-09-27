@@ -1,9 +1,12 @@
 
 package Acount;
-import  checkout.*;
+import  java.util.*;
+import  com.example.foodapp.model.Acount.*;
+import  com.example.foodapp.model.Menu.*;
+import  com.example.foodapp.model.Panier.*;
+import  com.example.foodapp.model.Controllers.*;
+import  com.example.foodapp.model.checkout.*;
 
-
-import java.util.ArrayList;
 
 //------------------------------------------------------------------------------------------------------------
 public class Client{

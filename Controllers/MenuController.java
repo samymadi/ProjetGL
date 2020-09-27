@@ -1,22 +1,25 @@
 package Controllers;
-import Acount.Address;
-import Acount.Client;
-import Acount.CreditCard;
-import Menu.*;
-import Panier.SelectedFood;
-import Panier.ShoppingCart;
+
+import  java.util.*;
+import  com.example.foodapp.model.Acount.*;
+import  com.example.foodapp.model.Menu.*;
+import  com.example.foodapp.model.Panier.*;
+import  com.example.foodapp.model.Controllers.*;
+import  com.example.foodapp.model.checkout.*;
+
+
 
 public class MenuController {
 
         
 
-    public static InitialiseApplication(){
-        new Client("User","User@gmail.com",000000);
+    public static void  InitialiseApplication(){
+        new Client("User","User@gmail.com",(long)000000);
         new ShoppingCart();
         new Food();
-        CreditCard.LastCardId=0;
-        Address.LastAddressId=0;
-
+        CreditCard.LastCardId=(long)0;
+        Address.LastAddressId=(long)0;
+        //
         
         
 

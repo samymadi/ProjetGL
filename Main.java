@@ -1,9 +1,9 @@
-import java.util.*;
-import Controllers.*;
-import checkout.*;
-import Panier.*;
-import Acount.*;
-import Menu.*;
+import  java.util.*;
+import  com.example.foodapp.model.Acount.*;
+import  com.example.foodapp.model.Menu.*;
+import  com.example.foodapp.model.Panier.*;
+import  com.example.foodapp.model.Controllers.*;
+import  com.example.foodapp.model.checkout.*;
 
 
 
@@ -15,6 +15,7 @@ public class Main{
         //MenuController.AddFood();
         //ShoppingCart.Cart = new ShoppingCart();
        System.out.println( AcountController.CorrectFormatAndUpdateInformation_Address("  ", " ", "  "));
+       MenuController.InitialiseApplication();
 
 
     
